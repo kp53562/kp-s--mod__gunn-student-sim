@@ -1,8 +1,5 @@
 const [clicks] = (() => {
 
-// URL PARAMETERS
-// censored-name - activate Jennifer Li mode
-// bedtime       - bedtime at 12 AM because you need 8 hours of sleep
 const params = {};
 if (window.location.search) {
   window.location.search.slice(1).split('&').forEach(entry => {
@@ -450,6 +447,7 @@ async function beginSchool() {
     } else {
       gameState.friends--;
       renderer.friends.textContent = gameState.friends;
+      //if gameState.friends==1 then reword what the renderer says
       renderer.schoolContent.appendChild(createFragment([
         span('', 'One of your friends left you because you seemed to have stopped hanging out with them.'),
         '\n'
