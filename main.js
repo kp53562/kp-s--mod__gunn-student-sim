@@ -468,7 +468,7 @@ async function beginSchool() {
         '\n',
         span('', 'Your parents stand at the door, visibly disappointed and angry. Your dad shakes his head and points away.'),
         '\n\n',
-        span('end-msg', 'You have been disowned.'),
+        span('end-msg', 'You have been disowned...........................................................................................'),
         '\n\n',
         span('the-end', 'GAME OVER'),
         '\n\n',
