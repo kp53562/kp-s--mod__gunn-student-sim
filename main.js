@@ -11,7 +11,7 @@ if (window.location.search) {
     }
   });
 }
-if (params['jennifer-li']) params['censored-name'] = true;
+if (params['jennifer-li(i have no idea who this is)']) params['censored-name'] = true;
 
 const SCORES_COOKIE_NAME = '[gunn-student-sim] scores';
 const config = {
@@ -36,7 +36,7 @@ const gameState = {
   self: false,
   selfLength: 1,
   scolded: false,
-  totalSAT: 0,
+  totalSAT: 1,
   absences: 0,
   warned: false,
   retakeTests: 0,
@@ -59,7 +59,9 @@ const stringifyScore = ((billy, bob, joe, died, hmmm) => { // Don't worry about 
   };
   return ziggles => ziggles[died[4]]()[died[1]](died[2])[died[0]](olam => billy[olam] + joe(died[2]))[died[3]](died[2]);
 })({}, {}, atob('QTE2MnozLjQsNUA2Xzc4OEc5ZzA' + String.fromCharCode(61)), JSON.parse(atob('WyJtYXAiLCJzcGxpdCIsIiIsImpvaW4iLCJ0b1N0cmluZyIsInJhbmRvbSIsImZsb29yIl0' + String.fromCharCode(61))), Math);
-
+alert("atob('WyJtYXAiLCJzcGxpdCIsIiIsImpvaW4iLCJ0b1N0cmluZyIsInJhbmRvbSIsImZsb29yIl0' + String.fromCharCode(61)")
+  //obfuscation?!?!!
+  
 function updateHomework() {
   renderer.hwCount.textContent = gameState.homeworks;
   if (renderer.tests) {
