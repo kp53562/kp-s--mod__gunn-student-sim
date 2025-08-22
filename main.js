@@ -59,7 +59,7 @@ const stringifyScore = ((billy, bob, joe, died, hmmm) => { // Don't worry about 
   };
   return ziggles => ziggles[died[4]]()[died[1]](died[2])[died[0]](olam => billy[olam] + joe(died[2]))[died[3]](died[2]);
 })({}, {}, atob('QTE2MnozLjQsNUA2Xzc4OEc5ZzA' + String.fromCharCode(61)), JSON.parse(atob('WyJtYXAiLCJzcGxpdCIsIiIsImpvaW4iLCJ0b1N0cmluZyIsInJhbmRvbSIsImZsb29yIl0' + String.fromCharCode(61))), Math);
-alert(atob('WyJtYXAiLCJzcGxpdCIsIiIsImpvaW4iLCJ0b1N0cmluZyIsInJhbmRvbSIsImZsb29yIl0' + String.fromCharCode(61)))
+  alert(atob('WyJtYXAiLCJzcGxpdCIsIiIsImpvaW4iLCJ0b1N0cmluZyIsInJhbmRvbSIsImZsb29yIl0' + String.fromCharCode(61))) //= 
   //obfuscation?!?!!
   
 function updateHomework() {
